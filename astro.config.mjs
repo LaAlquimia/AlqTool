@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://laalquimia.github.io',
-	base: '/alqtool',
+	base: '/AlqTool',
 	integrations: [mdx(), sitemap()],
 });
