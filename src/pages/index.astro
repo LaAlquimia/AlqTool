@@ -11,7 +11,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<script>
 			import { createChart } from "lightweight-charts";
-			const chart = createChart(document.getElementById("chart")!, {
+			const chart = createChart(document.body!, {
 				width: 400,
 				height: 300,
 			});
